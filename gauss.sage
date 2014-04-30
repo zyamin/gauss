@@ -6,3 +6,6 @@ class GaussianRational:
         return "%s + %s*i"%(self.x,self.y)
     def __add__(self, right):
         return GaussianRational(self.x+right.x, self.y+right.y)
+    def __sub__(self, right):
+        return GaussianRational(self.x-right.x, self.y-right.y)
+    
