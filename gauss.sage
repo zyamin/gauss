@@ -5,6 +5,7 @@ class GaussianRational:
     def __repr__(self):
         return "%s + %s*i"%(self.x,self.y)
     def __add__(self, right):
+    """ add a docstring"""
         return GaussianRational(self.x+right.x, self.y+right.y)
     def __sub__(self, right):
         return GaussianRational(self.x-right.x, self.y-right.y)
