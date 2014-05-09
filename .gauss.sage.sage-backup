@@ -35,7 +35,8 @@ class GaussianRational:
             copytree('my_dir2', 'my_dir3')
         except (Error, OSError), e:
             print "Attempt to copy failed: %s" % e
+
     def crazy_buggy():
         print "crazy_buggy"
-    
+
 
